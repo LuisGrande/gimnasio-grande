@@ -1,0 +1,14 @@
+.bg-color{
+background: linear-gradient(to right, #434343, #949191);
+}
+
+.navbar a{
+    color: white;
+}
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+    background-color: white;
+    padding: 7px;
+    border-radius: 50%;
+}
