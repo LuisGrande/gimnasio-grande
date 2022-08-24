@@ -1,8 +1,12 @@
-.bg-color{
-background: linear-gradient(to right, #434343, #949191);
+body{
+    background: black;
 }
 
-.navbar a{
+.bg-color{
+background: linear-gradient(to right, hsla(0, 0%, 26%, 0.575), hsla(0, 1%, 57%, 0.507));
+}
+
+.nav-item a{
     color: white;
 }
 .navbar-brand img{
@@ -11,4 +15,9 @@ background: linear-gradient(to right, #434343, #949191);
     background-color: white;
     padding: 7px;
     border-radius: 50%;
+}
+/* carrusel */
+.carousel-item img{
+    height: 50vh;
+    object-fit: cover;
 }
