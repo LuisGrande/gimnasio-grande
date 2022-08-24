@@ -21,3 +21,19 @@ background: linear-gradient(to right, hsla(0, 0%, 26%, 0.575), hsla(0, 1%, 57%, 
     height: 50vh;
     object-fit: cover;
 }
+
+/* cards */
+.contenedor-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.section-cards h1{
+    text-align: center;
+    color: white;
+    text-transform:uppercase;
+    font-size: 40px;
+    margin: 20px 0;
+}
