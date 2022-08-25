@@ -1,9 +1,15 @@
 body{
     background: black;
 }
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5000;
+}
 
 .bg-color{
-background: linear-gradient(to right, hsla(0, 0%, 26%, 0.575), hsla(0, 1%, 57%, 0.507));
+background: linear-gradient(to right, hsla(0, 0%, 26%, 0.815), hsla(0, 95%, 36%, 0.555));
 }
 
 .nav-item a{
@@ -36,4 +42,28 @@ background: linear-gradient(to right, hsla(0, 0%, 26%, 0.575), hsla(0, 1%, 57%, 
     text-transform:uppercase;
     font-size: 40px;
     margin: 20px 0;
+}
+
+/* section-divisoria */
+.section-divisoria{
+    background: linear-gradient(to right, #dd181880, #00000080);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white
+}
+
+/* seccion de opciones */
+.text-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.text-p p{
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
 }
