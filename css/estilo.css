@@ -69,6 +69,9 @@ background: linear-gradient(to right, hsla(0, 0%, 26%, 0.815), hsla(0, 95%, 36%,
 }
 
 /* pagina de instructores */
+.text-center h1{
+    color: white;
+}
 .testimonial-card .card-up {
     height: 120px;
     overflow: hidden;
@@ -93,4 +96,30 @@ background: linear-gradient(to right, hsla(0, 0%, 26%, 0.815), hsla(0, 95%, 36%,
     width: 90px;
     height: 90px;
     object-fit: cover;
+  }
+
+  /* pagina de maquinas */
+  .bg-color-img{
+    background: linear-gradient(to right,hsla(0, 0%, 20%, 0.747), hsla(0, 61%, 92%, 0.514), hsla(0, 0%, 20%, 0.76)),url(../img/banner-maquina.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .accordion{
+    width: 100%;
+    --bs-accordion-bg: rgba(0, 0, 0, 0.219);
+    --bs-accordion-active-bg: rgba(230, 220, 220, 0.63);
+    color:white
+    /* --bs-accordion-active-color: red !important; */
+  }
+  .accordion-button:not.collapsed{
+    color: red;
+  }
+  .accordion-item h2 button{
+    color: white;
   }
